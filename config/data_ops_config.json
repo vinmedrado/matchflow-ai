@@ -1,0 +1,13 @@
+{
+  "data_engine_mode": "internal",
+  "engine_output_candidates": [
+    "data/raw",
+    "data/future_matches"
+  ],
+  "accepted_file_formats": [
+    ".json",
+    ".jsonl",
+    ".csv",
+    ".parquet"
+  ]
+}

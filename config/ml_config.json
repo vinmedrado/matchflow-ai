@@ -1,0 +1,15 @@
+{
+  "models": [
+    "random_forest",
+    "lightgbm",
+    "xgboost"
+  ],
+  "markets": [
+    "goals_over_25",
+    "btts_yes"
+  ],
+  "models_dir": "data/ml/models",
+  "predictions_dir": "data/ml/predictions",
+  "fallback_policy": "use_deterministic_calibrated_proxy_when_optional_library_missing",
+  "app_mode": "PAPER_TRADING_SIMULATION_ONLY"
+}

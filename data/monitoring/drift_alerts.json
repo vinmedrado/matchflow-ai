@@ -1,0 +1,35 @@
+{
+  "ok": true,
+  "mode": "PAPER_TRADING_SIMULATION_ONLY",
+  "alerts": [
+    {
+      "alert_type": "DRIFT",
+      "severity": "critical",
+      "reason": "ensemble_probability",
+      "drift_score": 1.0,
+      "recommendation": "Review recent window and reduce confidence if persistent."
+    },
+    {
+      "alert_type": "DRIFT",
+      "severity": "critical",
+      "reason": "calibrated_ensemble_probability",
+      "drift_score": 1.0,
+      "recommendation": "Review recent window and reduce confidence if persistent."
+    },
+    {
+      "alert_type": "DRIFT",
+      "severity": "critical",
+      "reason": "confidence_score",
+      "drift_score": 1.0,
+      "recommendation": "Review recent window and reduce confidence if persistent."
+    },
+    {
+      "alert_type": "DRIFT",
+      "severity": "critical",
+      "reason": "ensemble_entropy",
+      "drift_score": 1.0,
+      "recommendation": "Review recent window and reduce confidence if persistent."
+    }
+  ],
+  "generated_at": "2026-05-13T19:16:37.485669+00:00"
+}

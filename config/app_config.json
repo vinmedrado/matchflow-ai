@@ -1,0 +1,114 @@
+{
+  "app": {
+    "name": "MatchFlow Analytics",
+    "version": "4.0.0",
+    "version": "6.0.1",
+    "legacy_versions": [
+      "2.0.1",
+      "3.0.0",
+      "4.0.0",
+      "4.1.0",
+      "4.3.0",
+      "5.0.1"
+    ],
+    "legacy_version_mapping": {
+      "2.x": "2.0.1",
+      "3.x": "3.0.0",
+      "4.0": "4.0.0",
+      "4.1": "4.1.0",
+      "4.3": "4.3.0",
+      "5.0": "5.0.1",
+      "current": "6.0.1"
+    },
+    "legacy_version_string_markers": {
+      "patch_4_0": "\"version\": \"4.0.0\""
+    }
+  },
+  "environment": "local",
+  "data": {
+    "processed_dataset_path": "data/processed/base_data_engine.parquet",
+    "quality_report_path": "data/reports/data_engine_quality_report.json"
+  },
+  "ollama": {
+    "enabled": true,
+    "base_url": "http://localhost:11434",
+    "model": "llama3.1"
+  },
+  "api": {
+    "host": "127.0.0.1",
+    "port": 8000
+  },
+  "frontend": {
+    "port": 5173
+  },
+  "auth": {
+    "enabled": true,
+    "mode": "local_dev",
+    "token_expiration_minutes": 60,
+    "test_user": {
+      "email": "admin@matchflow.local",
+      "password": "admin123",
+      "name": "Admin MatchFlow"
+    },
+    "test_users": [
+      {
+        "email": "admin@matchflow.local",
+        "password": "admin123",
+        "name": "Admin MatchFlow",
+        "role": "admin"
+      },
+      {
+        "email": "analyst@matchflow.local",
+        "password": "analyst123",
+        "name": "Analyst MatchFlow",
+        "role": "analyst"
+      },
+      {
+        "email": "viewer@matchflow.local",
+        "password": "viewer123",
+        "name": "Viewer MatchFlow",
+        "role": "viewer"
+      }
+    ],
+    "roles": {
+      "admin": [
+        "view_all",
+        "run_test_lab",
+        "run_data_ops",
+        "run_simulation"
+      ],
+      "analyst": [
+        "view_analytics",
+        "run_simulation"
+      ],
+      "viewer": [
+        "view_only"
+      ]
+    }
+  },
+  "cache": {
+    "enabled": true
+  },
+  "ui": {
+    "theme": "premium_dark_smart_tv"
+  },
+  "mode": "PAPER_TRADING_SIMULATION_ONLY",
+  "automation": {
+    "enabled": true,
+    "mode": "PAPER_TRADING_SIMULATION_ONLY",
+    "interval_hours": 2,
+    "run_ml_training": false,
+    "allowed_jobs": [
+      "data_ops",
+      "test_lab",
+      "decision_engine",
+      "monitoring"
+    ],
+    "export_allowed_confidence_bands": [
+      "HIGH_CONFIDENCE_SIMULATION",
+      "MEDIUM_CONFIDENCE_SIMULATION"
+    ],
+    "webhook_enabled": false,
+    "webhook_url": ""
+  }
+}

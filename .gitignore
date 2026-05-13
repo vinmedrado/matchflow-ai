@@ -1,0 +1,107 @@
+# =========================================
+# Python
+# =========================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+.venv/
+venv/
+env/
+
+# =========================================
+# Node / Frontend
+# =========================================
+frontend/node_modules/
+frontend/dist/
+.vite/
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================================
+# Environment / Secrets
+# =========================================
+.env
+.env.*
+!.env.example
+!.env.production.example
+!frontend/.env.example
+
+# =========================================
+# Logs
+# =========================================
+*.log
+logs/*
+!logs/.gitkeep
+
+# =========================================
+# Local databases
+# =========================================
+*.db
+*.sqlite
+*.sqlite3
+
+# =========================================
+# ML / Data artifacts
+# =========================================
+*.parquet
+*.feather
+*.csv
+
+data/raw/*
+data/processed/*
+data/reports/*
+data/ml/*
+data/backtest/*
+data/paper_trading/*
+data/cache/*
+
+!data/.gitkeep
+
+# =========================================
+# Models / Checkpoints
+# =========================================
+*.pkl
+*.joblib
+*.onnx
+*.pt
+*.pth
+
+# =========================================
+# OS / IDE
+# =========================================
+.DS_Store
+Thumbs.db
+
+.vscode/
+.idea/
+
+# =========================================
+# Temporary / cache
+# =========================================
+tmp/
+temp/
+.cache/
+
+# =========================================
+# Build / coverage
+# =========================================
+dist/
+build/
+coverage/
+
+# =========================================
+# Docker
+# =========================================
+docker-data/

@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "mode": "PAPER_TRADING_SIMULATION_ONLY",
+  "settlement_source_type": "real",
+  "real_settled_results": 0,
+  "markets": [],
+  "generated_at": "2026-05-13T19:16:35.528676+00:00",
+  "output_paths": {
+    "parquet": "data/results/real_settled_results.parquet",
+    "csv": "data/results/real_settled_results.csv"
+  }
+}

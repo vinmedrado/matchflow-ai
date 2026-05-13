@@ -1,0 +1,9 @@
+{
+  "mode": "PAPER_TRADING_SIMULATION_ONLY",
+  "path": "/mnt/data/matchflow_work/data/automation/daily_report.md",
+  "generated_at": "2026-05-10T01:26:59.408847+00:00",
+  "candidates_in_report": 0,
+  "high_confidence": 0,
+  "beating_market": false,
+  "telegram_sent": 0
+}

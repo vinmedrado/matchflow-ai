@@ -1,0 +1,7 @@
+{
+  "ok": true,
+  "mode": "PAPER_TRADING_SIMULATION_ONLY",
+  "total_candidates": 12,
+  "source": "data/ml/predictions/future_predictions.parquet",
+  "fixed_probability_removed": true
+}

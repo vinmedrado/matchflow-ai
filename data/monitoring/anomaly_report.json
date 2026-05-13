@@ -1,0 +1,19 @@
+{
+  "ok": true,
+  "mode": "PAPER_TRADING_SIMULATION_ONLY",
+  "generated_at": "2026-05-13T19:16:29.636118+00:00",
+  "anomalies_detected": true,
+  "anomalies": [
+    {
+      "type": "RISK_FLAGS_SPIKE",
+      "risk_rate": 1.0,
+      "severity": "MEDIUM"
+    },
+    {
+      "type": "LOW_DECISION_SCORE_AVERAGE",
+      "average_score": 28.77333333333333,
+      "severity": "LOW"
+    }
+  ],
+  "note": "Anomalias são alertas de pesquisa para simulação, sem ação real."
+}

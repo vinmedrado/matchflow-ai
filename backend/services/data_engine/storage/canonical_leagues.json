@@ -1,0 +1,291 @@
+{
+  "premier_league": {
+    "canonical_league_id": "premier_league",
+    "canonical_id": "premier_league",
+    "canonical_name": "Premier League",
+    "country": "England",
+    "aliases": [
+      "Premier League",
+      "english premier league",
+      "epl"
+    ],
+    "provider_ids": {},
+    "provider_names": {
+      "demo/local": [
+        "Premier League"
+      ]
+    },
+    "first_seen_at": "2026-05-09T10:49:49.209569+00:00",
+    "last_seen_at": "2026-05-09T10:49:49.212236+00:00",
+    "review_status": "seeded",
+    "confidence": 1.0,
+    "notes": "Seeded canonical registry entry."
+  },
+  "la_liga": {
+    "canonical_league_id": "la_liga",
+    "canonical_id": "la_liga",
+    "canonical_name": "La Liga",
+    "country": "Spain",
+    "aliases": [
+      "La Liga",
+      "laliga",
+      "primera division"
+    ],
+    "provider_ids": {},
+    "provider_names": {
+      "demo/local": [
+        "La Liga"
+      ]
+    },
+    "first_seen_at": "2026-05-09T10:49:49.209569+00:00",
+    "last_seen_at": "2026-05-09T10:49:49.216330+00:00",
+    "review_status": "seeded",
+    "confidence": 1.0,
+    "notes": "Seeded canonical registry entry."
+  },
+  "brasileiro_serie_a": {
+    "canonical_league_id": "brasileiro_serie_a",
+    "canonical_id": "brasileiro_serie_a",
+    "canonical_name": "Brasileiro Serie A",
+    "country": "Brazil",
+    "aliases": [
+      "Brasileiro Serie A",
+      "brasileirao serie a",
+      "campeonato brasileiro serie a"
+    ],
+    "provider_ids": {},
+    "provider_names": {
+      "demo/local": [
+        "Brasileiro Serie A"
+      ]
+    },
+    "first_seen_at": "2026-05-09T10:49:49.209569+00:00",
+    "last_seen_at": "2026-05-09T10:49:49.220396+00:00",
+    "review_status": "seeded",
+    "confidence": 1.0,
+    "notes": "Seeded canonical registry entry."
+  },
+  "serie_a": {
+    "canonical_league_id": "serie_a",
+    "canonical_id": "serie_a",
+    "canonical_name": "Serie A",
+    "country": "Italy",
+    "aliases": [
+      "Serie A",
+      "italian serie a"
+    ],
+    "provider_ids": {},
+    "provider_names": {
+      "demo/local": [
+        "Serie A"
+      ]
+    },
+    "first_seen_at": "2026-05-09T10:49:49.209569+00:00",
+    "last_seen_at": "2026-05-09T10:49:49.225462+00:00",
+    "review_status": "seeded",
+    "confidence": 1.0,
+    "notes": "Seeded canonical registry entry."
+  },
+  "bundesliga": {
+    "canonical_league_id": "bundesliga",
+    "canonical_id": "bundesliga",
+    "canonical_name": "Bundesliga",
+    "country": "Germany",
+    "aliases": [
+      "Bundesliga",
+      "german bundesliga"
+    ],
+    "provider_ids": {},
+    "provider_names": {
+      "demo/local": [
+        "Bundesliga"
+      ]
+    },
+    "first_seen_at": "2026-05-09T10:49:49.209569+00:00",
+    "last_seen_at": "2026-05-09T10:49:49.231355+00:00",
+    "review_status": "seeded",
+    "confidence": 1.0,
+    "notes": "Seeded canonical registry entry."
+  },
+  "ligue_1": {
+    "canonical_league_id": "ligue_1",
+    "canonical_id": "ligue_1",
+    "canonical_name": "Ligue 1",
+    "country": "France",
+    "aliases": [
+      "Ligue 1",
+      "france ligue 1"
+    ],
+    "provider_ids": {},
+    "provider_names": {
+      "demo/local": [
+        "Ligue 1"
+      ]
+    },
+    "first_seen_at": "2026-05-09T10:49:49.209569+00:00",
+    "last_seen_at": "2026-05-09T10:49:49.236057+00:00",
+    "review_status": "seeded",
+    "confidence": 1.0,
+    "notes": "Seeded canonical registry entry."
+  },
+  "brazil_serie_a": {
+    "canonical_league_id": "brazil_serie_a",
+    "canonical_id": "brazil_serie_a",
+    "canonical_name": "Brazil Serie A",
+    "country": null,
+    "aliases": [
+      "Brazil Serie A"
+    ],
+    "provider_ids": {},
+    "provider_names": {
+      "flashscore/internal": [
+        "Brazil Serie A"
+      ]
+    },
+    "first_seen_at": "2026-05-09T10:50:05.689938+00:00",
+    "last_seen_at": "2026-05-09T10:50:05.689938+00:00",
+    "review_status": "auto_created",
+    "confidence": 0.55,
+    "notes": "Created by entity resolution fallback."
+  },
+  "england_premier_league": {
+    "canonical_league_id": "england_premier_league",
+    "canonical_id": "england_premier_league",
+    "canonical_name": "England Premier League",
+    "country": null,
+    "aliases": [
+      "England Premier League"
+    ],
+    "provider_ids": {},
+    "provider_names": {
+      "flashscore/internal": [
+        "England Premier League"
+      ]
+    },
+    "first_seen_at": "2026-05-09T10:50:05.695672+00:00",
+    "last_seen_at": "2026-05-09T10:50:05.695672+00:00",
+    "review_status": "auto_created",
+    "confidence": 0.55,
+    "notes": "Created by entity resolution fallback."
+  },
+  "africa_afl": {
+    "canonical_league_id": "africa_afl",
+    "canonical_id": "africa_afl",
+    "canonical_name": "Africa Afl",
+    "country": null,
+    "aliases": [
+      "Africa Afl"
+    ],
+    "provider_ids": {},
+    "provider_names": {
+      "flashscore": [
+        "Africa Afl"
+      ]
+    },
+    "first_seen_at": "2026-05-09T11:12:04.612819+00:00",
+    "last_seen_at": "2026-05-09T11:12:04.612819+00:00",
+    "review_status": "auto_created",
+    "confidence": 0.55,
+    "notes": "Created by entity resolution fallback."
+  },
+  "africa_africa_cup_of_nations": {
+    "canonical_league_id": "africa_africa_cup_of_nations",
+    "canonical_id": "africa_africa_cup_of_nations",
+    "canonical_name": "Africa Africa Cup Of Nations",
+    "country": null,
+    "aliases": [
+      "Africa Africa Cup Of Nations"
+    ],
+    "provider_ids": {},
+    "provider_names": {
+      "flashscore": [
+        "Africa Africa Cup Of Nations"
+      ]
+    },
+    "first_seen_at": "2026-05-09T11:12:04.629845+00:00",
+    "last_seen_at": "2026-05-09T11:12:04.629845+00:00",
+    "review_status": "auto_created",
+    "confidence": 0.55,
+    "notes": "Created by entity resolution fallback."
+  },
+  "africa_africa_cup_of_nations_u17": {
+    "canonical_league_id": "africa_africa_cup_of_nations_u17",
+    "canonical_id": "africa_africa_cup_of_nations_u17",
+    "canonical_name": "Africa Africa Cup Of Nations U17",
+    "country": null,
+    "aliases": [
+      "Africa Africa Cup Of Nations U17"
+    ],
+    "provider_ids": {},
+    "provider_names": {
+      "flashscore": [
+        "Africa Africa Cup Of Nations U17"
+      ]
+    },
+    "first_seen_at": "2026-05-09T11:12:04.753674+00:00",
+    "last_seen_at": "2026-05-09T11:12:04.753674+00:00",
+    "review_status": "auto_created",
+    "confidence": 0.9333333333333332,
+    "notes": "Created by entity resolution fallback."
+  },
+  "africa_africa_cup_of_nations_u20": {
+    "canonical_league_id": "africa_africa_cup_of_nations_u20",
+    "canonical_id": "africa_africa_cup_of_nations_u20",
+    "canonical_name": "Africa Africa Cup Of Nations U20",
+    "country": null,
+    "aliases": [
+      "Africa Africa Cup Of Nations U20"
+    ],
+    "provider_ids": {},
+    "provider_names": {
+      "flashscore": [
+        "Africa Africa Cup Of Nations U20"
+      ]
+    },
+    "first_seen_at": "2026-05-09T11:12:04.755385+00:00",
+    "last_seen_at": "2026-05-09T11:12:04.755385+00:00",
+    "review_status": "auto_created",
+    "confidence": 0.9375,
+    "notes": "Created by entity resolution fallback."
+  },
+  "africa_africa_cup_of_nations_u23": {
+    "canonical_league_id": "africa_africa_cup_of_nations_u23",
+    "canonical_id": "africa_africa_cup_of_nations_u23",
+    "canonical_name": "Africa Africa Cup Of Nations U23",
+    "country": null,
+    "aliases": [
+      "Africa Africa Cup Of Nations U23"
+    ],
+    "provider_ids": {},
+    "provider_names": {
+      "flashscore": [
+        "Africa Africa Cup Of Nations U23"
+      ]
+    },
+    "first_seen_at": "2026-05-09T11:12:04.757153+00:00",
+    "last_seen_at": "2026-05-09T11:12:04.757153+00:00",
+    "review_status": "auto_created",
+    "confidence": 0.96875,
+    "notes": "Created by entity resolution fallback."
+  },
+  "a": {
+    "canonical_league_id": "a",
+    "canonical_id": "a",
+    "canonical_name": "A",
+    "country": null,
+    "aliases": [
+      "A"
+    ],
+    "provider_ids": {},
+    "provider_names": {
+      "flashscore": [
+        "A"
+      ]
+    },
+    "first_seen_at": "2026-05-09T11:28:10.869622+00:00",
+    "last_seen_at": "2026-05-09T11:28:10.869622+00:00",
+    "review_status": "auto_created",
+    "confidence": 0.55,
+    "notes": "Created by entity resolution fallback."
+  }
+}

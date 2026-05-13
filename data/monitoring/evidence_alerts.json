@@ -1,0 +1,60 @@
+{
+  "ok": true,
+  "mode": "PAPER_TRADING_SIMULATION_ONLY",
+  "generated_at": "2026-05-13T19:16:37.383169+00:00",
+  "total_alerts": 5,
+  "alerts": [
+    {
+      "alert_type": "CALIBRATION_EVIDENCE",
+      "severity": "warning",
+      "code": "REAL_CALIBRATION_UNAVAILABLE",
+      "message": "Calibração real indisponível: amostra real liquidada insuficiente.",
+      "context": "Only 0 real settled rows available; minimum is 30. Paper/backtest/demo are excluded from real calibration.",
+      "source_type_breakdown": {
+        "backtest": 306
+      },
+      "recommendation": "Acumule resultados reais liquidados pelo Data Engine/FlashScore antes de tratar calibração como real."
+    },
+    {
+      "alert_type": "FALLBACK_EVIDENCE",
+      "severity": "info",
+      "code": "FALLBACK_DATA_EXCLUDED_FROM_REAL_CALIBRATION",
+      "message": "Paper/backtest/demo existem, mas foram excluídos da calibração real.",
+      "excluded_records_count": 306,
+      "recommendation": "Use esses dados apenas para dashboards/fallback e mantenha separação de evidência."
+    },
+    {
+      "alert_type": "MODEL_EVIDENCE",
+      "severity": "warning",
+      "code": "MODEL_NOT_REAL_VERIFIED",
+      "model_name": "random_forest",
+      "message": "Modelo random_forest sem evidência real suficiente.",
+      "health_source_type": "fallback",
+      "real_evidence_score": 0.0,
+      "fallback_evidence_score": 1.0,
+      "recommendation": "Evite promover peso operacional do modelo até haver resultados reais liquidados suficientes."
+    },
+    {
+      "alert_type": "MODEL_EVIDENCE",
+      "severity": "warning",
+      "code": "MODEL_NOT_REAL_VERIFIED",
+      "model_name": "lightgbm",
+      "message": "Modelo lightgbm sem evidência real suficiente.",
+      "health_source_type": "fallback",
+      "real_evidence_score": 0.0,
+      "fallback_evidence_score": 1.0,
+      "recommendation": "Evite promover peso operacional do modelo até haver resultados reais liquidados suficientes."
+    },
+    {
+      "alert_type": "MODEL_EVIDENCE",
+      "severity": "warning",
+      "code": "MODEL_NOT_REAL_VERIFIED",
+      "model_name": "xgboost",
+      "message": "Modelo xgboost sem evidência real suficiente.",
+      "health_source_type": "fallback",
+      "real_evidence_score": 0.0,
+      "fallback_evidence_score": 1.0,
+      "recommendation": "Evite promover peso operacional do modelo até haver resultados reais liquidados suficientes."
+    }
+  ]
+}

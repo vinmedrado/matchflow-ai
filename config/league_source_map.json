@@ -1,0 +1,127 @@
+{
+  "_comment": "Mapeamento canônico entre todas as fontes de dados do MatchFlow.",
+  "_version": "1.0.0",
+  "_sources": ["flashscore_slug", "football_data_code", "odds_api_key", "canonical_name"],
+  "leagues": [
+    {
+      "canonical": "Premier League",
+      "flashscore_slug": "england/premier-league",
+      "flashscore_name_variants": ["England Premier League", "Premier League"],
+      "football_data_code": "PL",
+      "odds_api_key": "soccer_epl",
+      "country": "England"
+    },
+    {
+      "canonical": "Bundesliga",
+      "flashscore_slug": "germany/bundesliga",
+      "flashscore_name_variants": ["Germany Bundesliga", "Bundesliga"],
+      "football_data_code": "BL1",
+      "odds_api_key": "soccer_germany_bundesliga",
+      "country": "Germany"
+    },
+    {
+      "canonical": "Serie A",
+      "flashscore_slug": "italy/serie-a",
+      "flashscore_name_variants": ["Italy Serie A", "Serie A"],
+      "football_data_code": "SA",
+      "odds_api_key": "soccer_italy_serie_a",
+      "country": "Italy"
+    },
+    {
+      "canonical": "La Liga",
+      "flashscore_slug": "spain/laliga",
+      "flashscore_name_variants": ["Spain Laliga", "Spain La Liga", "LaLiga", "La Liga"],
+      "football_data_code": "PD",
+      "odds_api_key": "soccer_spain_la_liga",
+      "country": "Spain"
+    },
+    {
+      "canonical": "Ligue 1",
+      "flashscore_slug": "france/ligue-1",
+      "flashscore_name_variants": ["France Ligue 1", "Ligue 1"],
+      "football_data_code": "FL1",
+      "odds_api_key": "soccer_france_ligue_one",
+      "country": "France"
+    },
+    {
+      "canonical": "Brasileirão Série A",
+      "flashscore_slug": "brazil/serie-a",
+      "flashscore_name_variants": ["Brazil Serie A", "Brasileirão Série A", "Série A"],
+      "football_data_code": "BSA",
+      "odds_api_key": "soccer_brazil_campeonato",
+      "country": "Brazil"
+    },
+    {
+      "canonical": "Champions League",
+      "flashscore_slug": "europe/champions-league",
+      "flashscore_name_variants": ["Europe Champions League", "UEFA Champions League"],
+      "football_data_code": "CL",
+      "odds_api_key": "soccer_uefa_champs_league",
+      "country": "Europe"
+    },
+    {
+      "canonical": "Eredivisie",
+      "flashscore_slug": "netherlands/eredivisie",
+      "flashscore_name_variants": ["Netherlands Eredivisie", "Eredivisie"],
+      "football_data_code": "DED",
+      "odds_api_key": "soccer_netherlands_eredivisie",
+      "country": "Netherlands"
+    },
+    {
+      "canonical": "Primeira Liga",
+      "flashscore_slug": "portugal/liga-portugal",
+      "flashscore_name_variants": ["Portugal Liga Portugal", "Primeira Liga", "Liga Portugal"],
+      "football_data_code": "PPL",
+      "odds_api_key": "soccer_portugal_primeira_liga",
+      "country": "Portugal"
+    },
+    {
+      "canonical": "Serie B",
+      "flashscore_slug": "italy/serie-b",
+      "flashscore_name_variants": ["Italy Serie B", "Serie B"],
+      "football_data_code": "SB",
+      "odds_api_key": "soccer_italy_serie_b",
+      "country": "Italy"
+    },
+    {
+      "canonical": "Championship",
+      "flashscore_slug": "england/championship",
+      "flashscore_name_variants": ["England Championship", "Championship"],
+      "football_data_code": "ELC",
+      "odds_api_key": "soccer_england_league1",
+      "country": "England"
+    },
+    {
+      "canonical": "Brasileirão Série B",
+      "flashscore_slug": "brazil/serie-b",
+      "flashscore_name_variants": ["Brazil Serie B", "Série B"],
+      "football_data_code": null,
+      "odds_api_key": "soccer_brazil_serie_b",
+      "country": "Brazil"
+    },
+    {
+      "canonical": "MLS",
+      "flashscore_slug": "usa/mls",
+      "flashscore_name_variants": ["Usa Mls", "MLS"],
+      "football_data_code": null,
+      "odds_api_key": "soccer_usa_mls",
+      "country": "USA"
+    },
+    {
+      "canonical": "Liga MX",
+      "flashscore_slug": "mexico/liga-de-expansion-mx",
+      "flashscore_name_variants": ["Mexico Liga Mx", "Liga MX"],
+      "football_data_code": null,
+      "odds_api_key": "soccer_mexico_ligamx",
+      "country": "Mexico"
+    },
+    {
+      "canonical": "Argentine Primera División",
+      "flashscore_slug": "argentina/primera-division",
+      "flashscore_name_variants": ["Argentina Primera Division", "Primera División"],
+      "football_data_code": null,
+      "odds_api_key": "soccer_argentina_primera_division",
+      "country": "Argentina"
+    }
+  ]
+}

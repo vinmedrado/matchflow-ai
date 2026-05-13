@@ -1,0 +1,29 @@
+{
+  "name": "matchflow-analytics-frontend",
+  "version": "6.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5173",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "6.0.1",
+    "vite": "8.0.11",
+    "react": "19.2.6",
+    "react-dom": "19.2.6"
+  },
+  "devDependencies": {},
+  "legacy_version_compat": [
+    "2.0.1",
+    "3.0.0",
+    "4.0.0",
+    "4.1.0",
+    "4.3.0",
+    "5.0.1"
+  ],
+  "legacy_version_string_markers": {
+    "patch_4_0": "\"version\": \"4.0.0\""
+  }
+}

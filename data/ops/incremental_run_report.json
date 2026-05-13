@@ -1,0 +1,96 @@
+{
+  "ran_at": "2026-05-10T01:26:49.743701+00:00",
+  "final_status": "READY",
+  "flashscore_bridge": {
+    "status": "OK",
+    "rows": 0,
+    "internal_provider": true,
+    "warnings": [
+      "Real FlashScore provider returned no rows; demo fallback is disabled by default. Set FLASHSCORE_USE_DEMO=true or DATA_ENGINE_MODE=demo for demo data.",
+      "ci_browser_scraping_disabled; no_demo_fallback_in_internal_mode"
+    ]
+  },
+  "odds_fetcher": {
+    "status": "SKIPPED",
+    "reason": "ODDS_API_KEY não configurada. Obtenha em https://the-odds-api.com/"
+  },
+  "check": {
+    "final_status": "PARTIAL_READY",
+    "engine": {
+      "checked_at": "2026-05-10T01:26:49.736760+00:00",
+      "engine_status": "ENGINE_READY",
+      "engine_path": "/mnt/data/matchflow_work/backend/services/data_engine/providers/flashscore",
+      "engine_files_count": 3,
+      "output_directories": [
+        "data/raw",
+        "data/raw",
+        "data/reports"
+      ],
+      "checked_paths": [
+        "data/raw/flashscore_matches.parquet",
+        "data/raw/flashscore_matches.csv",
+        "data/reports/flashscore_sync_report.json"
+      ],
+      "messages": [
+        "Internal FlashScore provider is the active MatchFlow Data Engine.",
+        "The internal provider is sufficient for pipeline, tests, demo, and API status."
+      ],
+      "actionable_next_step": "Use python run_full_decision_pipeline.py or POST /api/data-engine/providers/flashscore/sync.",
+      "internal_provider": true,
+      "uses_external_repo": false,
+      "is_using_external_repo": false
+    },
+    "future_games": {
+      "checked_at": "2026-05-10T01:26:49.737056+00:00",
+      "future_games_status": "FUTURE_GAMES_MISSING",
+      "future_games_path": null,
+      "checked_paths": [],
+      "future_games_files_count": 0,
+      "scripts_count": 0,
+      "data_files": [],
+      "scripts": [],
+      "messages": [
+        "Pasta de jogos futuros não encontrada."
+      ],
+      "actionable_next_step": "Crie ou restaure a pasta jogos_futuros no football-saas, ou configure FUTURE_GAMES_PATH."
+    },
+    "messages": [
+      "Internal FlashScore provider is the active MatchFlow Data Engine.",
+      "The internal provider is sufficient for pipeline, tests, demo, and API status.",
+      "Pasta de jogos futuros não encontrada."
+    ],
+    "actionable_next_step": "Use python run_full_decision_pipeline.py or POST /api/data-engine/providers/flashscore/sync."
+  },
+  "engine_sync": {
+    "synced_at": "2026-05-10T01:26:49.738763+00:00",
+    "status": "SYNCED",
+    "engine_path": "/mnt/data/matchflow_work/backend/services/data_engine/providers/flashscore",
+    "total_files_seen": 3,
+    "new_files": [],
+    "changed_files": [],
+    "unchanged_files_count": 3,
+    "internal_provider": true,
+    "uses_external_repo": false
+  },
+  "future_games_snapshot": {
+    "loaded_at": "2026-05-10T01:26:49.743498+00:00",
+    "status": "FUTURE_GAMES_MISSING",
+    "rows": 0,
+    "files_loaded": 0,
+    "files_failed": 0,
+    "failed_files": [],
+    "snapshot_path": "/mnt/data/matchflow_work/data/ops/future_games_snapshot.parquet",
+    "source_status": "FUTURE_GAMES_MISSING",
+    "messages": [
+      "Pasta de jogos futuros não encontrada."
+    ]
+  },
+  "paper_trading_update": {
+    "attempted": false,
+    "status": "SKIPPED"
+  },
+  "ml_prediction_update": {
+    "attempted": false,
+    "status": "SKIPPED"
+  }
+}

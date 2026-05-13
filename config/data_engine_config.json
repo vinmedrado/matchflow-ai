@@ -1,0 +1,6 @@
+{
+  "data_engine_mode": "internal",
+  "primary_provider": "flashscore",
+  "state_path": "data/data_engine/state/flashscore_state.json",
+  "outputs_dir": "data/raw"
+}

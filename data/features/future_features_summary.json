@@ -1,0 +1,24 @@
+{
+  "ok": true,
+  "generated_at": "2026-05-10T01:29:47.112940+00:00",
+  "total_rows": 6,
+  "low_sample_rows": 6,
+  "status": "ready",
+  "outputs": {
+    "parquet": "data/features/future_features.parquet",
+    "csv": "data/features/future_features.csv",
+    "summary": "data/features/future_features_summary.json"
+  },
+  "storage": {
+    "requested_path": "/mnt/data/matchflow_work/data/features/future_features.parquet",
+    "parquet_path": "/mnt/data/matchflow_work/data/features/future_features.parquet",
+    "csv_path": "/mnt/data/matchflow_work/data/features/future_features.csv",
+    "parquet_available": false,
+    "parquet_engine": null,
+    "fallback_used": true,
+    "fallback_reason": "No parquet engine available; using CSV fallback",
+    "storage_format": "csv",
+    "rows": 6,
+    "storage_warning": "No parquet engine available; using CSV fallback"
+  }
+}

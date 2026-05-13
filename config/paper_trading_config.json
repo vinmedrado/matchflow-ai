@@ -1,0 +1,17 @@
+{
+  "initial_bankroll": 100.0,
+  "stake_mode": "fixed",
+  "fixed_stake": 1.0,
+  "allowed_recommendations": ["KEEP"],
+  "max_signals_per_day": 10,
+  "min_consistency_score": 60,
+  "min_sample_size": 100,
+  "allow_watch_strategies": false,
+  "paper_only": true,
+  "resolution_delay_days": 1,
+  "state_path": "data/paper_trading/paper_state.json",
+  "signals_path": "data/paper_trading/paper_signals.csv",
+  "results_path": "data/paper_trading/paper_results.csv",
+  "equity_curve_path": "data/paper_trading/paper_equity_curve.csv",
+  "summary_path": "data/paper_trading/paper_summary.json"
+}

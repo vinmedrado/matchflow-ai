@@ -1,0 +1,1 @@
+export default function Placeholder({title}){return <div><h1>{title}</h1><p className="subtitle">Módulo visual preparado. Implementação funcional será feita em patch futuro.</p><div className="module-card"><span>Roadmap</span><h3>Pronto para evolução</h3><p>Sem backtest, ML ou analytics implementados neste patch.</p></div></div>}

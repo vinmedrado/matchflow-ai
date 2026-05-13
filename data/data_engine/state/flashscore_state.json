@@ -1,0 +1,43 @@
+{
+  "provider": "flashscore",
+  "current_index": 5,
+  "processed_leagues": [
+    "africa/afl",
+    "africa/africa-cup-of-nations",
+    "africa/africa-cup-of-nations-u17",
+    "africa/africa-cup-of-nations-u20",
+    "africa/africa-cup-of-nations-u23"
+  ],
+  "processed_matches": [
+    "flashscore_africa/afl_1",
+    "flashscore_africa/africa-cup-of-nations-u17_1",
+    "flashscore_africa/africa-cup-of-nations-u20_1",
+    "flashscore_africa/africa-cup-of-nations-u23_1",
+    "flashscore_africa/africa-cup-of-nations_1",
+    "flashscore_demo_africa/afl_1",
+    "flashscore_demo_africa/africa-cup-of-nations-u17_1",
+    "flashscore_demo_africa/africa-cup-of-nations_1"
+  ],
+  "failed_leagues": [
+    "africa/afl",
+    "africa/africa-cup-of-nations",
+    "africa/africa-cup-of-nations-u17",
+    "africa/africa-cup-of-nations-u20",
+    "africa/africa-cup-of-nations-u23"
+  ],
+  "failed_matches": [],
+  "retry_count": 493,
+  "last_error": "Real FlashScore provider returned no rows; demo fallback is disabled by default. Set FLASHSCORE_USE_DEMO=true or DATA_ENGINE_MODE=demo for demo data.",
+  "last_successful_page": null,
+  "last_successful_league": "africa/africa-cup-of-nations-u23",
+  "mode": "internal",
+  "provider_status": "real_provider_unavailable",
+  "provider_health": "degraded",
+  "last_successful_run": "2026-05-10T01:29:47.082694+00:00",
+  "last_run": "2026-05-11T14:05:49.615823+00:00",
+  "test_mode": true,
+  "batch_size": 20,
+  "start_date": "2023-01-01",
+  "end_date": "yesterday",
+  "updated_at": "2026-05-11T14:05:49.615823+00:00"
+}

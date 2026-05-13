@@ -1,0 +1,34 @@
+{
+  "min_trades_default": 50,
+  "min_trades_strong": 100,
+  "max_drawdown_warning": -20,
+  "profit_factor_min": 1.05,
+  "roi_min": 0.01,
+  "rolling_windows": [
+    25,
+    50,
+    100
+  ],
+  "odds_ranges": [
+    [
+      1.2,
+      1.49
+    ],
+    [
+      1.5,
+      1.79
+    ],
+    [
+      1.8,
+      2.09
+    ],
+    [
+      2.1,
+      2.49
+    ],
+    [
+      2.5,
+      null
+    ]
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "mode": "PAPER_TRADING_SIMULATION_ONLY",
+  "total_dispatched": 2,
+  "monitoring_alerts": 2,
+  "high_confidence_candidates": 0,
+  "telegram": {
+    "sent": 0,
+    "skipped": 0,
+    "errors": 0,
+    "configured": false
+  },
+  "events": [
+    {
+      "mode": "PAPER_TRADING_SIMULATION_ONLY",
+      "dispatched_at": "2026-05-10T01:26:59.402447+00:00",
+      "channel": "internal_log",
+      "type": "monitoring_alert",
+      "severity": "MEDIUM",
+      "category": "SYSTEM",
+      "code": "ANOMALIES_DETECTED",
+      "message": "Anomalias detectadas no monitoramento.",
+      "status": "RECORDED"
+    },
+    {
+      "mode": "PAPER_TRADING_SIMULATION_ONLY",
+      "dispatched_at": "2026-05-10T01:26:59.402475+00:00",
+      "channel": "internal_log",
+      "type": "monitoring_alert",
+      "severity": "LOW",
+      "category": "DECISION_ENGINE",
+      "code": "NO_HIGH_CONFIDENCE",
+      "message": "Nenhum candidato de alta confiança em simulação foi encontrado.",
+      "status": "RECORDED"
+    }
+  ]
+}

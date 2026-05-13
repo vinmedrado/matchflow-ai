@@ -1,0 +1,69 @@
+services:
+  backend:
+    build: .
+    command: uvicorn backend.main:app --host 0.0.0.0 --port 8000 --reload  # dev only; use docker-compose.prod.yml in production
+    ports:
+      - "8000:8000"
+    environment:
+      APP_ENV: local
+      APP_MODE: ${APP_MODE:-PAPER_TRADING_SIMULATION_ONLY}
+      FOOTBALL_DATA_API_KEY: ${FOOTBALL_DATA_API_KEY:-}
+      ODDS_API_KEY: ${ODDS_API_KEY:-}
+      TELEGRAM_BOT_TOKEN: ${TELEGRAM_BOT_TOKEN:-}
+      TELEGRAM_CHAT_ID: ${TELEGRAM_CHAT_ID:-}
+      GROQ_API_KEY: ${GROQ_API_KEY:-}
+      INITIAL_BANKROLL: ${INITIAL_BANKROLL:-1000.0}
+      KELLY_FRACTION: ${KELLY_FRACTION:-0.25}
+      AUTH_MODE: ${AUTH_MODE:-saas}
+      AUTH_ENABLED: ${AUTH_ENABLED:-true}
+      AUTH_DATABASE_URL: ${AUTH_DATABASE_URL:-data/auth/matchflow_auth.sqlite3}
+      EMAIL_VERIFICATION_ENABLED: ${EMAIL_VERIFICATION_ENABLED:-false}
+      AUTH_PUBLIC_REGISTRATION_ENABLED: ${AUTH_PUBLIC_REGISTRATION_ENABLED:-true}
+      CORS_ORIGINS: ${CORS_ORIGINS:-http://localhost:5173,http://127.0.0.1:5173}
+      MAX_STAKE_PCT: ${MAX_STAKE_PCT:-0.05}
+      AUTH_MODE: ${AUTH_MODE:-saas}
+      AUTH_ENABLED: ${AUTH_ENABLED:-true}
+      AUTH_DATABASE_URL: ${AUTH_DATABASE_URL:-data/auth/matchflow_auth.sqlite3}
+      EMAIL_VERIFICATION_ENABLED: ${EMAIL_VERIFICATION_ENABLED:-false}
+      AUTH_PUBLIC_REGISTRATION_ENABLED: ${AUTH_PUBLIC_REGISTRATION_ENABLED:-true}
+      CORS_ORIGINS: ${CORS_ORIGINS:-http://localhost:5173,http://127.0.0.1:5173}
+      MONTHLY_DRAWDOWN_STOP: ${MONTHLY_DRAWDOWN_STOP:-0.25}
+    volumes:
+      - ./:/app
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  frontend:
+    image: node:20-alpine
+    working_dir: /app/frontend
+    command: sh -c "npm install && npm run dev -- --host 0.0.0.0"
+    ports:
+      - "5173:5173"
+    volumes:
+      - ./:/app
+    depends_on:
+      - backend
+
+  scheduler:
+    build: .
+    command: python start_scheduler.py
+    environment:
+      APP_ENV: local
+      APP_MODE: ${APP_MODE:-PAPER_TRADING_SIMULATION_ONLY}
+      FOOTBALL_DATA_API_KEY: ${FOOTBALL_DATA_API_KEY:-}
+      ODDS_API_KEY: ${ODDS_API_KEY:-}
+      TELEGRAM_BOT_TOKEN: ${TELEGRAM_BOT_TOKEN:-}
+      TELEGRAM_CHAT_ID: ${TELEGRAM_CHAT_ID:-}
+      GROQ_API_KEY: ${GROQ_API_KEY:-}
+      SCHEDULER_RUN_HOURS: ${SCHEDULER_RUN_HOURS:-7,13,19}
+      SCHEDULER_TIMEZONE: ${SCHEDULER_TIMEZONE:-America/Sao_Paulo}
+      INITIAL_BANKROLL: ${INITIAL_BANKROLL:-1000.0}
+      KELLY_FRACTION: ${KELLY_FRACTION:-0.25}
+    volumes:
+      - ./:/app
+    depends_on:
+      - backend
+    restart: unless-stopped

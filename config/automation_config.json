@@ -1,0 +1,39 @@
+{
+  "mode": "PAPER_TRADING_SIMULATION_ONLY",
+  "enabled": true,
+  "interval_hours": 2,
+  "run_ml_training": false,
+  "jobs": [
+    "data_engine",
+    "odds_fetcher",
+    "odds_monitor",
+    "data_ops",
+    "result_settler",
+    "test_lab",
+    "decision_engine",
+    "monitoring",
+    "clv_tracker",
+    "performance_report",
+    "monte_carlo"
+  ],
+  "data_engine": {
+    "mode": "incremental",
+    "days_back": 7,
+    "timeout_seconds": 3600,
+    "skip_if_ran_within_hours": 20
+  },
+  "export": {
+    "allowed_confidence_bands": ["HIGH_CONFIDENCE_SIMULATION", "MEDIUM_CONFIDENCE_SIMULATION"],
+    "output_path": "data/automation/exported_candidates.csv"
+  },
+  "alerts": {
+    "webhook_enabled": false,
+    "webhook_url": "",
+    "telegram_enabled": true,
+    "telegram_min_score": 70
+  },
+  "safety": {
+    "paper_only": true,
+    "forbidden_terms": ["BET", "APOSTAR", "STAKE", "REAL_TRADE", "REAL_ENTRY"]
+  }
+}

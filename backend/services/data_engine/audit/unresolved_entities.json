@@ -1,0 +1,200 @@
+[
+  {
+    "entity_type": "team",
+    "provider": "demo/local",
+    "raw_name": "Arsenal",
+    "normalized_name": "arsenal",
+    "score": 38.095238095238095,
+    "context": {
+      "league": "Premier League"
+    },
+    "reason": "no_reliable_match"
+  },
+  {
+    "entity_type": "team",
+    "provider": "demo/local",
+    "raw_name": "Chelsea",
+    "normalized_name": "chelsea",
+    "score": 45.45454545454546,
+    "context": {
+      "league": "Premier League"
+    },
+    "reason": "no_reliable_match"
+  },
+  {
+    "entity_type": "team",
+    "provider": "demo/local",
+    "raw_name": "Barcelona",
+    "normalized_name": "barcelona",
+    "score": 62.5,
+    "context": {
+      "league": "La Liga"
+    },
+    "reason": "no_reliable_match"
+  },
+  {
+    "entity_type": "team",
+    "provider": "demo/local",
+    "raw_name": "Valencia",
+    "normalized_name": "valencia",
+    "score": 53.333333333333336,
+    "context": {
+      "league": "La Liga"
+    },
+    "reason": "no_reliable_match"
+  },
+  {
+    "entity_type": "team",
+    "provider": "demo/local",
+    "raw_name": "Palmeiras",
+    "normalized_name": "palmeiras",
+    "score": 58.82352941176471,
+    "context": {
+      "league": "Brasileiro Serie A"
+    },
+    "reason": "no_reliable_match"
+  },
+  {
+    "entity_type": "team",
+    "provider": "demo/local",
+    "raw_name": "Flamengo",
+    "normalized_name": "flamengo",
+    "score": 40.0,
+    "context": {
+      "league": "Brasileiro Serie A"
+    },
+    "reason": "no_reliable_match"
+  },
+  {
+    "entity_type": "team",
+    "provider": "demo/local",
+    "raw_name": "Inter",
+    "normalized_name": "inter",
+    "score": 62.5,
+    "context": {
+      "league": "Serie A"
+    },
+    "reason": "no_reliable_match"
+  },
+  {
+    "entity_type": "team",
+    "provider": "demo/local",
+    "raw_name": "Roma",
+    "normalized_name": "roma",
+    "score": 46.15384615384615,
+    "context": {
+      "league": "Serie A"
+    },
+    "reason": "no_reliable_match"
+  },
+  {
+    "entity_type": "team",
+    "provider": "demo/local",
+    "raw_name": "Bayern Munich",
+    "normalized_name": "bayern munchen",
+    "score": 52.17391304347826,
+    "context": {
+      "league": "Bundesliga"
+    },
+    "reason": "no_reliable_match"
+  },
+  {
+    "entity_type": "team",
+    "provider": "demo/local",
+    "raw_name": "Dortmund",
+    "normalized_name": "dortmund",
+    "score": 37.5,
+    "context": {
+      "league": "Bundesliga"
+    },
+    "reason": "no_reliable_match"
+  },
+  {
+    "entity_type": "team",
+    "provider": "demo/local",
+    "raw_name": "Lyon",
+    "normalized_name": "lyon",
+    "score": 46.15384615384615,
+    "context": {
+      "league": "Ligue 1"
+    },
+    "reason": "no_reliable_match"
+  },
+  {
+    "entity_type": "league",
+    "provider": "flashscore/internal",
+    "raw_name": "Brazil Serie A",
+    "normalized_name": "brazil serie a",
+    "score": 81.25,
+    "context": {
+      "season": ""
+    },
+    "reason": "no_reliable_match"
+  },
+  {
+    "entity_type": "team",
+    "provider": "flashscore/internal",
+    "raw_name": "Santos",
+    "normalized_name": "santos",
+    "score": 42.85714285714286,
+    "context": {
+      "league": "Brazil Serie A"
+    },
+    "reason": "no_reliable_match"
+  },
+  {
+    "entity_type": "league",
+    "provider": "flashscore/internal",
+    "raw_name": "England Premier League",
+    "normalized_name": "england premier league",
+    "score": 77.77777777777779,
+    "context": {
+      "season": ""
+    },
+    "reason": "no_reliable_match"
+  },
+  {
+    "entity_type": "league",
+    "provider": "flashscore",
+    "raw_name": "Africa Afl",
+    "normalized_name": "africa afl",
+    "score": 50.0,
+    "context": {
+      "season": "2023+"
+    },
+    "reason": "no_reliable_match"
+  },
+  {
+    "entity_type": "league",
+    "provider": "flashscore",
+    "raw_name": "Africa Africa Cup Of Nations",
+    "normalized_name": "africa africa cup of nations",
+    "score": 47.36842105263158,
+    "context": {
+      "season": "2023+"
+    },
+    "reason": "no_reliable_match"
+  },
+  {
+    "entity_type": "league",
+    "provider": "flashscore",
+    "raw_name": "A",
+    "normalized_name": "a",
+    "score": 28.57142857142857,
+    "context": {
+      "season": ""
+    },
+    "reason": "no_reliable_match"
+  },
+  {
+    "entity_type": "team",
+    "provider": "flashscore",
+    "raw_name": "H",
+    "normalized_name": "h",
+    "score": 25.0,
+    "context": {
+      "league": "A"
+    },
+    "reason": "no_reliable_match"
+  }
+]

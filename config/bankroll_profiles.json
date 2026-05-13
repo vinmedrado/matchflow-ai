@@ -1,0 +1,72 @@
+{
+  "default_bankroll": 1000.0,
+  "default_profile": "Balanced",
+  "profiles": {
+    "Conservative": {
+      "min_confidence": 0.64,
+      "max_stake_pct": 0.01,
+      "kelly_fraction": 0.15,
+      "max_daily_exposure_pct": 0.03,
+      "max_signals_per_day": 3,
+      "min_sample_size": 120,
+      "max_risk_flags_allowed": 1,
+      "markets_allowed": [
+        "goals_over_25",
+        "btts_yes",
+        "goals"
+      ],
+      "low_data_policy": "reject"
+    },
+    "Balanced": {
+      "min_confidence": 0.58,
+      "max_stake_pct": 0.02,
+      "kelly_fraction": 0.25,
+      "max_daily_exposure_pct": 0.06,
+      "max_signals_per_day": 6,
+      "min_sample_size": 60,
+      "max_risk_flags_allowed": 2,
+      "markets_allowed": [
+        "goals_over_25",
+        "goals_under_25",
+        "btts_yes",
+        "btts_no",
+        "goals"
+      ],
+      "low_data_policy": "watch_only"
+    },
+    "Aggressive": {
+      "min_confidence": 0.54,
+      "max_stake_pct": 0.035,
+      "kelly_fraction": 0.4,
+      "max_daily_exposure_pct": 0.1,
+      "max_signals_per_day": 10,
+      "min_sample_size": 30,
+      "max_risk_flags_allowed": 3,
+      "markets_allowed": [
+        "goals_over_25",
+        "goals_under_25",
+        "btts_yes",
+        "btts_no",
+        "goals"
+      ],
+      "low_data_policy": "allow_with_warning"
+    },
+    "Experimental": {
+      "min_confidence": 0.5,
+      "max_stake_pct": 0.01,
+      "kelly_fraction": 0.1,
+      "max_daily_exposure_pct": 0.02,
+      "max_signals_per_day": 5,
+      "min_sample_size": 10,
+      "max_risk_flags_allowed": 5,
+      "markets_allowed": [
+        "goals_over_25",
+        "goals_under_25",
+        "btts_yes",
+        "btts_no",
+        "goals"
+      ],
+      "low_data_policy": "paper_only"
+    }
+  }
+}

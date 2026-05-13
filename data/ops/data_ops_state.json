@@ -1,0 +1,15 @@
+{
+  "last_discovery_at": "2026-05-10T01:29:12.184291+00:00",
+  "last_engine_sync": "2026-05-10T01:26:49.738763+00:00",
+  "engine_path": "/mnt/data/matchflow_work/backend/services/data_engine/providers/flashscore",
+  "engine_status": "ENGINE_READY",
+  "engine_files_count": 3,
+  "future_games_path": null,
+  "future_games_status": "FUTURE_GAMES_MISSING",
+  "future_games_files_count": 0,
+  "processed_files": {},
+  "last_paper_trading_update": "2026-05-09T11:12:39.531067+00:00",
+  "last_ml_prediction_update": "2026-05-09T11:12:39.531528+00:00",
+  "updated_at": "2026-05-10T01:29:12.185299+00:00",
+  "internal_provider": true
+}

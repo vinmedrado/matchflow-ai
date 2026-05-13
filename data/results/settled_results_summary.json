@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "mode": "PAPER_TRADING_SIMULATION_ONLY",
+  "generated_at": "2026-05-13T19:16:37.074993+00:00",
+  "source_type_breakdown": {
+    "paper": 0,
+    "backtest": 102,
+    "demo": 0
+  },
+  "real_is_separate": true
+}

@@ -1,0 +1,138 @@
+{
+  "version": "4.0.1",
+  "input_path": "data/features/team_dataset_advanced.parquet",
+  "outputs": {
+    "detailed_results_path": "data/backtest/results/detailed_results.parquet",
+    "summary_results_path": "data/backtest/results/summary_results.csv",
+    "legacy_detailed_dir": "04_backtest/results/detailed",
+    "legacy_summary_dir": "04_backtest/results/summary",
+    "equity_curve_path": "data/backtest/results/equity_curve.csv",
+    "legacy_equity_dir": "04_backtest/results/summary"
+  },
+  "simulation": {
+    "initial_bankroll": 100.0,
+    "stake": 1.0,
+    "min_odds": 1.2,
+    "sort_columns": [
+      "date",
+      "event_id",
+      "strategy",
+      "team_key"
+    ]
+  },
+  "markets": {
+    "goals_over_2_5": {
+      "enabled": true,
+      "market": "goals",
+      "line": 2.5,
+      "thresholds": {
+        "expected_goals_proxy": 0.5,
+        "pressure_avg_last_5": 8.0
+      },
+      "odds_aliases": [
+        "odds_over_2_5",
+        "odd_over_2_5",
+        "Odds_Over25_FT",
+        "Odd_Over25_FT",
+        "odd_over25_ft",
+        "odds_goals_over_2_5"
+      ]
+    },
+    "goals_over_1_5": {
+      "enabled": true,
+      "market": "goals",
+      "line": 1.5,
+      "thresholds": {
+        "expected_goals_proxy": 0.3,
+        "pressure_avg_last_5": 7.0
+      },
+      "odds_aliases": [
+        "odds_over_1_5",
+        "odd_over_1_5",
+        "Odds_Over15_FT",
+        "Odd_Over15_FT",
+        "odd_over15_ft",
+        "odds_goals_over_1_5"
+      ]
+    },
+    "corners_over_8_5": {
+      "enabled": true,
+      "market": "corners",
+      "line": 8.5,
+      "thresholds": {
+        "corners_trend": -10.0,
+        "pressure_avg_last_5": 8.0
+      },
+      "odds_aliases": [
+        "odds_corners",
+        "odd_corners",
+        "Odds_Corners_Over85",
+        "Odd_Corners_Over85",
+        "Odd_Corners_Over95",
+        "odds_corners_over"
+      ]
+    },
+    "corners_over_9_5": {
+      "enabled": true,
+      "market": "corners",
+      "line": 9.5,
+      "thresholds": {
+        "high_corner_flag": 0.0,
+        "pressure_avg_last_5": 9.0
+      },
+      "odds_aliases": [
+        "odds_corners",
+        "odd_corners",
+        "Odds_Corners_Over85",
+        "Odd_Corners_Over85",
+        "Odd_Corners_Over95",
+        "odds_corners_over"
+      ]
+    },
+    "shots_over_threshold": {
+      "enabled": true,
+      "market": "shots",
+      "line": 10.5,
+      "thresholds": {
+        "high_shots_flag": 0.0,
+        "pressure_avg_last_5": 7.0
+      },
+      "odds_aliases": [
+        "odds_shots",
+        "odd_shots",
+        "odds_shots_over",
+        "Odd_Shots_Over"
+      ]
+    },
+    "btts_yes": {
+      "enabled": true,
+      "market": "btts",
+      "selection": "yes",
+      "thresholds": {
+        "team_attack_strength": 0.6,
+        "opponent_defense_weakness": 0.6,
+        "attack_vs_defense_ratio": 0.8
+      },
+      "odds_aliases": [
+        "odds_btts",
+        "odds_btts_yes",
+        "Odd_BTTS_Yes",
+        "odd_btts_yes"
+      ]
+    },
+    "btts_no": {
+      "enabled": true,
+      "market": "btts",
+      "selection": "no",
+      "thresholds": {
+        "team_attack_strength_max": 0.6,
+        "opponent_defense_weakness_max": 0.6
+      },
+      "odds_aliases": [
+        "odds_btts_no",
+        "Odd_BTTS_No",
+        "odd_btts_no"
+      ]
+    }
+  }
+}

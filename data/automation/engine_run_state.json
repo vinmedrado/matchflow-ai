@@ -1,0 +1,16 @@
+{
+  "ok": true,
+  "status": "SUCCESS",
+  "mode": "incremental",
+  "provider": "flashscore",
+  "internal_mode": true,
+    "rows_loaded": 0,
+  "outputs": {
+    "matches_parquet": "data/raw/flashscore_matches.parquet",
+    "matches_csv": "data/raw/flashscore_matches.csv",
+    "odds_parquet": "data/raw/flashscore_odds.parquet",
+    "stats_parquet": "data/raw/flashscore_stats.parquet"
+  },
+  "started_at": "2026-05-09T11:28:25.866848+00:00",
+  "finished_at": "2026-05-09T11:28:25.866858+00:00"
+}

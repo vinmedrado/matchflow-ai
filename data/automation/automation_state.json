@@ -1,0 +1,11 @@
+{
+  "mode": "PAPER_TRADING_SIMULATION_ONLY",
+  "overall_status": "WARNING",
+  "last_run_at": "2026-05-10T01:26:49.661250+00:00",
+  "last_export_at": "2026-05-10T01:26:59.395283+00:00",
+  "last_report_at": "2026-05-10T01:26:59.408608+00:00",
+  "last_alert_dispatch_at": "2026-05-10T01:26:59.403666+00:00",
+  "last_job_status": "PARTIAL",
+  "runs_count": 64,
+  "last_completed_at": "2026-05-10T01:26:59.409515+00:00"
+}

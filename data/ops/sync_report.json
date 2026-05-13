@@ -1,0 +1,11 @@
+{
+  "synced_at": "2026-05-10T01:26:49.738763+00:00",
+  "status": "SYNCED",
+  "engine_path": "/mnt/data/matchflow_work/backend/services/data_engine/providers/flashscore",
+  "total_files_seen": 3,
+  "new_files": [],
+  "changed_files": [],
+  "unchanged_files_count": 3,
+  "internal_provider": true,
+  "uses_external_repo": false
+}

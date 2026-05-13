@@ -1,0 +1,57 @@
+{
+  "ok": true,
+  "mode": "PAPER_TRADING_SIMULATION_ONLY",
+  "generated_at": "2026-05-13T19:16:37.530815+00:00",
+  "total_alerts": 7,
+  "alerts": [
+    {
+      "alert_type": "DRIFT",
+      "severity": "critical",
+      "title": "Drift estatístico detectado",
+      "reason": "drift_score=1.0",
+      "recommendation": "Review calibration, recent data quality, and ensemble weights before promoting new signals."
+    },
+    {
+      "alert_type": "CALIBRATION",
+      "severity": "warning",
+      "title": "Calibração fraca em random_forest",
+      "reason": "ECE=None sample=0",
+      "recommendation": "Aguardar mais liquidações ou reduzir peso do modelo."
+    },
+    {
+      "alert_type": "CALIBRATION",
+      "severity": "warning",
+      "title": "Calibração fraca em lightgbm",
+      "reason": "ECE=None sample=0",
+      "recommendation": "Aguardar mais liquidações ou reduzir peso do modelo."
+    },
+    {
+      "alert_type": "CALIBRATION",
+      "severity": "warning",
+      "title": "Calibração fraca em xgboost",
+      "reason": "ECE=None sample=0",
+      "recommendation": "Aguardar mais liquidações ou reduzir peso do modelo."
+    },
+    {
+      "alert_type": "MODEL_HEALTH",
+      "severity": "warning",
+      "title": "Modelo random_forest degraded",
+      "reason": "health_score=0.374775",
+      "recommendation": "Reduzir peso no ensemble e revisar drift/calibração."
+    },
+    {
+      "alert_type": "MODEL_HEALTH",
+      "severity": "warning",
+      "title": "Modelo lightgbm degraded",
+      "reason": "health_score=0.374775",
+      "recommendation": "Reduzir peso no ensemble e revisar drift/calibração."
+    },
+    {
+      "alert_type": "MODEL_HEALTH",
+      "severity": "warning",
+      "title": "Modelo xgboost degraded",
+      "reason": "health_score=0.374775",
+      "recommendation": "Reduzir peso no ensemble e revisar drift/calibração."
+    }
+  ]
+}

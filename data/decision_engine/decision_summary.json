@@ -1,0 +1,40 @@
+{
+  "ok": true,
+  "mode": "PAPER_TRADING_SIMULATION_ONLY",
+  "app_mode": "PAPER_TRADING_SIMULATION_ONLY",
+  "manual_confirmation_message": "Nenhuma ação real. Revisão e confirmação manual obrigatórias em PAPER_TRADING_SIMULATION_ONLY.",
+  "selected_profile": "Balanced",
+  "generated_at": "2026-05-10T01:29:48.173192+00:00",
+  "total_candidates": 12,
+  "high_confidence": 0,
+  "medium_confidence": 0,
+  "watch_only": 0,
+  "rejected": 12,
+  "action_required": 0,
+  "average_score": 28.77,
+  "mean_true_ev": 0.0433,
+  "mean_kelly_pct": 0.0,
+  "bankroll": 100.0,
+  "current_drawdown_pct": 90.0,
+  "demo_presentation_mode": true,
+  "demo_only_candidates": 12,
+  "clv_last_30d_pct": 0.0,
+  "beating_market": false,
+  "outputs": {
+    "parquet": "data/decision_engine/decision_candidates.parquet",
+    "csv": "data/decision_engine/decision_candidates.csv",
+    "summary": "data/decision_engine/decision_summary.json"
+  },
+  "storage": {
+    "requested_path": "/mnt/data/matchflow_work/data/decision_engine/decision_candidates.parquet",
+    "parquet_path": "/mnt/data/matchflow_work/data/decision_engine/decision_candidates.parquet",
+    "csv_path": "/mnt/data/matchflow_work/data/decision_engine/decision_candidates.csv",
+    "parquet_available": false,
+    "parquet_engine": null,
+    "fallback_used": true,
+    "fallback_reason": "No parquet engine available; using CSV fallback",
+    "storage_format": "csv",
+    "rows": 12,
+    "storage_warning": "No parquet engine available; using CSV fallback"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "ok": true,
+  "generated_at": "2026-05-10T01:29:47.100970+00:00",
+  "total_matches": 6,
+  "sources": [
+    "demo/local"
+  ],
+  "status": "ready",
+  "warnings": [
+    "External API keys or local future snapshot unavailable; demo/local fallback used."
+  ],
+  "consolidation": {
+    "total_input": 6,
+    "total_output": 6,
+    "duplicates_removed": 0,
+    "conflicts": 0,
+    "canonical_matches": 6
+  },
+  "outputs": {
+    "parquet": "data/future_matches/future_matches_snapshot.parquet",
+    "csv": "data/future_matches/future_matches_snapshot.csv",
+    "summary": "data/future_matches/future_matches_summary.json"
+  }
+}

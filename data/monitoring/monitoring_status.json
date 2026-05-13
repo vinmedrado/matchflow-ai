@@ -1,0 +1,33 @@
+{
+  "ok": true,
+  "mode": "PAPER_TRADING_SIMULATION_ONLY",
+  "generated_at": "2026-05-13T19:16:29.566469+00:00",
+  "overall_status": "HEALTHY",
+  "risk_level": "LOW",
+  "data_ops": {
+    "engine_status": "ENGINE_READY",
+    "engine_files_count": 3,
+    "future_games_status": "FUTURE_GAMES_MISSING",
+    "future_games_files_count": 0,
+    "last_sync": "2026-05-10T01:26:49.738763+00:00"
+  },
+  "paper_trading": {
+    "roi": 0.0,
+    "max_drawdown": 0.0,
+    "current_bankroll": 100.0,
+    "pending_signals": 0
+  },
+  "ml": {
+    "calibration_available": true,
+    "calibration_markets": [
+      "mode",
+      "markets",
+      "research_only"
+    ]
+  },
+  "decision_engine": {
+    "high_confidence_candidates": 0,
+    "rejected_candidates": 0,
+    "total_candidates": 12
+  }
+}

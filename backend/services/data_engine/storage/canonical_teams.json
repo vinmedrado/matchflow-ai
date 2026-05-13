@@ -1,0 +1,425 @@
+{
+  "manchester_united": {
+    "canonical_team_id": "manchester_united",
+    "canonical_id": "manchester_united",
+    "canonical_name": "Manchester United",
+    "country": "England",
+    "aliases": [
+      "Manchester United",
+      "man united",
+      "man utd",
+      "manchester united fc"
+    ],
+    "provider_ids": {},
+    "provider_names": {
+      "flashscore": [
+        "Man Utd"
+      ]
+    },
+    "first_seen_at": "2026-05-09T10:49:49.209205+00:00",
+    "last_seen_at": "2026-05-09T11:12:04.615350+00:00",
+    "review_status": "seeded",
+    "confidence": 1.0,
+    "notes": "Seeded canonical registry entry."
+  },
+  "manchester_city": {
+    "canonical_team_id": "manchester_city",
+    "canonical_id": "manchester_city",
+    "canonical_name": "Manchester City",
+    "country": "England",
+    "aliases": [
+      "Manchester City",
+      "man city",
+      "manchester city fc"
+    ],
+    "provider_ids": {},
+    "provider_names": {
+      "flashscore": [
+        "Manchester City"
+      ]
+    },
+    "first_seen_at": "2026-05-09T10:49:49.209205+00:00",
+    "last_seen_at": "2026-05-09T11:12:04.616884+00:00",
+    "review_status": "seeded",
+    "confidence": 1.0,
+    "notes": "Seeded canonical registry entry."
+  },
+  "internazionale": {
+    "canonical_team_id": "internazionale",
+    "canonical_id": "internazionale",
+    "canonical_name": "Internazionale",
+    "country": "Italy",
+    "aliases": [
+      "Internazionale",
+      "inter milan",
+      "internazionale milano"
+    ],
+    "provider_ids": {},
+    "provider_names": {},
+    "first_seen_at": "2026-05-09T10:49:49.209205+00:00",
+    "last_seen_at": "2026-05-09T10:49:49.209205+00:00",
+    "review_status": "seeded",
+    "confidence": 1.0,
+    "notes": "Seeded canonical registry entry."
+  },
+  "inter_miami": {
+    "canonical_team_id": "inter_miami",
+    "canonical_id": "inter_miami",
+    "canonical_name": "Inter Miami",
+    "country": "USA",
+    "aliases": [
+      "Inter Miami",
+      "inter miami cf"
+    ],
+    "provider_ids": {},
+    "provider_names": {},
+    "first_seen_at": "2026-05-09T10:49:49.209205+00:00",
+    "last_seen_at": "2026-05-09T10:49:49.209205+00:00",
+    "review_status": "seeded",
+    "confidence": 1.0,
+    "notes": "Seeded canonical registry entry."
+  },
+  "sao_paulo": {
+    "canonical_team_id": "sao_paulo",
+    "canonical_id": "sao_paulo",
+    "canonical_name": "São Paulo",
+    "country": "Brazil",
+    "aliases": [
+      "São Paulo",
+      "sao paulo fc",
+      "são paulo fc"
+    ],
+    "provider_ids": {},
+    "provider_names": {
+      "flashscore/internal": [
+        "Sao Paulo"
+      ]
+    },
+    "first_seen_at": "2026-05-09T10:49:49.209205+00:00",
+    "last_seen_at": "2026-05-09T10:50:05.692351+00:00",
+    "review_status": "seeded",
+    "confidence": 1.0,
+    "notes": "Seeded canonical registry entry."
+  },
+  "atletico_mineiro": {
+    "canonical_team_id": "atletico_mineiro",
+    "canonical_id": "atletico_mineiro",
+    "canonical_name": "Atlético Mineiro",
+    "country": "Brazil",
+    "aliases": [
+      "Atlético Mineiro",
+      "atl mineiro",
+      "atletico-mg",
+      "atlético-mg"
+    ],
+    "provider_ids": {},
+    "provider_names": {},
+    "first_seen_at": "2026-05-09T10:49:49.209205+00:00",
+    "last_seen_at": "2026-05-09T10:49:49.209205+00:00",
+    "review_status": "seeded",
+    "confidence": 1.0,
+    "notes": "Seeded canonical registry entry."
+  },
+  "paris_saint_germain": {
+    "canonical_team_id": "paris_saint_germain",
+    "canonical_id": "paris_saint_germain",
+    "canonical_name": "Paris Saint-Germain",
+    "country": "France",
+    "aliases": [
+      "Paris Saint-Germain",
+      "paris sg",
+      "psg"
+    ],
+    "provider_ids": {},
+    "provider_names": {
+      "demo/local": [
+        "PSG"
+      ]
+    },
+    "first_seen_at": "2026-05-09T10:49:49.209205+00:00",
+    "last_seen_at": "2026-05-09T10:49:49.237611+00:00",
+    "review_status": "seeded",
+    "confidence": 1.0,
+    "notes": "Seeded canonical registry entry."
+  },
+  "arsenal": {
+    "canonical_team_id": "arsenal",
+    "canonical_id": "arsenal",
+    "canonical_name": "Arsenal",
+    "country": null,
+    "aliases": [
+      "Arsenal"
+    ],
+    "provider_ids": {},
+    "provider_names": {
+      "demo/local": [
+        "Arsenal"
+      ]
+    },
+    "first_seen_at": "2026-05-09T10:49:49.213553+00:00",
+    "last_seen_at": "2026-05-09T10:49:49.213553+00:00",
+    "review_status": "auto_created",
+    "confidence": 0.55,
+    "notes": "Created by entity resolution fallback."
+  },
+  "chelsea": {
+    "canonical_team_id": "chelsea",
+    "canonical_id": "chelsea",
+    "canonical_name": "Chelsea",
+    "country": null,
+    "aliases": [
+      "Chelsea"
+    ],
+    "provider_ids": {},
+    "provider_names": {
+      "demo/local": [
+        "Chelsea"
+      ]
+    },
+    "first_seen_at": "2026-05-09T10:49:49.214680+00:00",
+    "last_seen_at": "2026-05-09T10:49:49.214680+00:00",
+    "review_status": "auto_created",
+    "confidence": 0.55,
+    "notes": "Created by entity resolution fallback."
+  },
+  "barcelona": {
+    "canonical_team_id": "barcelona",
+    "canonical_id": "barcelona",
+    "canonical_name": "Barcelona",
+    "country": null,
+    "aliases": [
+      "Barcelona"
+    ],
+    "provider_ids": {},
+    "provider_names": {
+      "demo/local": [
+        "Barcelona"
+      ]
+    },
+    "first_seen_at": "2026-05-09T10:49:49.217273+00:00",
+    "last_seen_at": "2026-05-09T10:49:49.217273+00:00",
+    "review_status": "auto_created",
+    "confidence": 0.55,
+    "notes": "Created by entity resolution fallback."
+  },
+  "valencia": {
+    "canonical_team_id": "valencia",
+    "canonical_id": "valencia",
+    "canonical_name": "Valencia",
+    "country": null,
+    "aliases": [
+      "Valencia"
+    ],
+    "provider_ids": {},
+    "provider_names": {
+      "demo/local": [
+        "Valencia"
+      ]
+    },
+    "first_seen_at": "2026-05-09T10:49:49.218627+00:00",
+    "last_seen_at": "2026-05-09T10:49:49.218627+00:00",
+    "review_status": "auto_created",
+    "confidence": 0.55,
+    "notes": "Created by entity resolution fallback."
+  },
+  "palmeiras": {
+    "canonical_team_id": "palmeiras",
+    "canonical_id": "palmeiras",
+    "canonical_name": "Palmeiras",
+    "country": null,
+    "aliases": [
+      "Palmeiras"
+    ],
+    "provider_ids": {},
+    "provider_names": {
+      "demo/local": [
+        "Palmeiras"
+      ]
+    },
+    "first_seen_at": "2026-05-09T10:49:49.221846+00:00",
+    "last_seen_at": "2026-05-09T10:49:49.221846+00:00",
+    "review_status": "auto_created",
+    "confidence": 0.55,
+    "notes": "Created by entity resolution fallback."
+  },
+  "flamengo": {
+    "canonical_team_id": "flamengo",
+    "canonical_id": "flamengo",
+    "canonical_name": "Flamengo",
+    "country": null,
+    "aliases": [
+      "Flamengo"
+    ],
+    "provider_ids": {},
+    "provider_names": {
+      "demo/local": [
+        "Flamengo"
+      ]
+    },
+    "first_seen_at": "2026-05-09T10:49:49.223543+00:00",
+    "last_seen_at": "2026-05-09T10:49:49.223543+00:00",
+    "review_status": "auto_created",
+    "confidence": 0.55,
+    "notes": "Created by entity resolution fallback."
+  },
+  "inter": {
+    "canonical_team_id": "inter",
+    "canonical_id": "inter",
+    "canonical_name": "Inter",
+    "country": null,
+    "aliases": [
+      "Inter"
+    ],
+    "provider_ids": {},
+    "provider_names": {
+      "demo/local": [
+        "Inter"
+      ]
+    },
+    "first_seen_at": "2026-05-09T10:49:49.229291+00:00",
+    "last_seen_at": "2026-05-09T10:49:49.229291+00:00",
+    "review_status": "auto_created",
+    "confidence": 0.55,
+    "notes": "Created by entity resolution fallback."
+  },
+  "roma": {
+    "canonical_team_id": "roma",
+    "canonical_id": "roma",
+    "canonical_name": "Roma",
+    "country": null,
+    "aliases": [
+      "Roma"
+    ],
+    "provider_ids": {},
+    "provider_names": {
+      "demo/local": [
+        "Roma"
+      ]
+    },
+    "first_seen_at": "2026-05-09T10:49:49.230510+00:00",
+    "last_seen_at": "2026-05-09T10:49:49.230510+00:00",
+    "review_status": "auto_created",
+    "confidence": 0.55,
+    "notes": "Created by entity resolution fallback."
+  },
+  "bayern_munchen": {
+    "canonical_team_id": "bayern_munchen",
+    "canonical_id": "bayern_munchen",
+    "canonical_name": "Bayern Munich",
+    "country": null,
+    "aliases": [
+      "Bayern Munich"
+    ],
+    "provider_ids": {},
+    "provider_names": {
+      "demo/local": [
+        "Bayern Munich"
+      ]
+    },
+    "first_seen_at": "2026-05-09T10:49:49.232782+00:00",
+    "last_seen_at": "2026-05-09T10:49:49.232782+00:00",
+    "review_status": "auto_created",
+    "confidence": 0.55,
+    "notes": "Created by entity resolution fallback."
+  },
+  "dortmund": {
+    "canonical_team_id": "dortmund",
+    "canonical_id": "dortmund",
+    "canonical_name": "Dortmund",
+    "country": null,
+    "aliases": [
+      "Dortmund"
+    ],
+    "provider_ids": {},
+    "provider_names": {
+      "demo/local": [
+        "Dortmund"
+      ]
+    },
+    "first_seen_at": "2026-05-09T10:49:49.234749+00:00",
+    "last_seen_at": "2026-05-09T10:49:49.234749+00:00",
+    "review_status": "auto_created",
+    "confidence": 0.55,
+    "notes": "Created by entity resolution fallback."
+  },
+  "lyon": {
+    "canonical_team_id": "lyon",
+    "canonical_id": "lyon",
+    "canonical_name": "Lyon",
+    "country": null,
+    "aliases": [
+      "Lyon"
+    ],
+    "provider_ids": {},
+    "provider_names": {
+      "demo/local": [
+        "Lyon"
+      ]
+    },
+    "first_seen_at": "2026-05-09T10:49:49.238747+00:00",
+    "last_seen_at": "2026-05-09T10:49:49.238747+00:00",
+    "review_status": "auto_created",
+    "confidence": 0.55,
+    "notes": "Created by entity resolution fallback."
+  },
+  "santos": {
+    "canonical_team_id": "santos",
+    "canonical_id": "santos",
+    "canonical_name": "Santos",
+    "country": null,
+    "aliases": [
+      "Santos"
+    ],
+    "provider_ids": {},
+    "provider_names": {
+      "flashscore/internal": [
+        "Santos"
+      ]
+    },
+    "first_seen_at": "2026-05-09T10:50:05.693637+00:00",
+    "last_seen_at": "2026-05-09T10:50:05.693637+00:00",
+    "review_status": "auto_created",
+    "confidence": 0.55,
+    "notes": "Created by entity resolution fallback."
+  },
+  "h": {
+    "canonical_team_id": "h",
+    "canonical_id": "h",
+    "canonical_name": "H",
+    "country": null,
+    "aliases": [
+      "H"
+    ],
+    "provider_ids": {},
+    "provider_names": {
+      "flashscore": [
+        "H"
+      ]
+    },
+    "first_seen_at": "2026-05-09T11:28:10.871663+00:00",
+    "last_seen_at": "2026-05-09T11:28:10.871663+00:00",
+    "review_status": "auto_created",
+    "confidence": 0.55,
+    "notes": "Created by entity resolution fallback."
+  },
+  "a": {
+    "canonical_team_id": "a",
+    "canonical_id": "a",
+    "canonical_name": "A",
+    "country": null,
+    "aliases": [
+      "A"
+    ],
+    "provider_ids": {},
+    "provider_names": {
+      "flashscore": [
+        "A"
+      ]
+    },
+    "first_seen_at": "2026-05-09T11:28:10.881980+00:00",
+    "last_seen_at": "2026-05-09T11:28:10.881980+00:00",
+    "review_status": "auto_created",
+    "confidence": 0.55,
+    "notes": "Created by entity resolution fallback."
+  }
+}
